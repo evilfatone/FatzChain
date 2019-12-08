@@ -57,7 +57,7 @@ public:
      */
     enum Unit
     {
-        DASH,
+        FATZCHAIN,
         mDASH,
         uDASH,
         duffs

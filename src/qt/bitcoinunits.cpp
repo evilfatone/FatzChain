@@ -19,7 +19,7 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(DASH);
+    unitlist.append(FATZCHAIN);
     unitlist.append(mDASH);
     unitlist.append(uDASH);
     unitlist.append(duffs);
@@ -30,7 +30,7 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case DASH:
+    case FATZCHAIN:
     case mDASH:
     case uDASH:
     case duffs:
@@ -44,7 +44,7 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case DASH: return QString("dash");
+        case FATZCHAIN: return QString("dash");
         case mDASH: return QString("mdash");
         case uDASH: return QString::fromUtf8("udash");
         case duffs: return QString("duffs");
@@ -58,7 +58,7 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("DASH");
+            case FATZCHAIN: return QString("FATZCHAIN");
             case mDASH: return QString("mDASH");
             case uDASH: return QString::fromUtf8("μDASH");
             case duffs: return QString("duffs");
@@ -69,7 +69,7 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("tDASH");
+            case FATZCHAIN: return QString("tDASH");
             case mDASH: return QString("mtDASH");
             case uDASH: return QString::fromUtf8("μtDASH");
             case duffs: return QString("tduffs");
@@ -84,7 +84,7 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("Dash");
+            case FATZCHAIN: return QString("Dash");
             case mDASH: return QString("Milli-Dash (1 / 1" THIN_SP_UTF8 "000)");
             case uDASH: return QString("Micro-Dash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-Dash (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
@@ -95,7 +95,7 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("TestDashs");
+            case FATZCHAIN: return QString("TestDashs");
             case mDASH: return QString("Milli-TestDash (1 / 1" THIN_SP_UTF8 "000)");
             case uDASH: return QString("Micro-TestDash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestDash (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
@@ -108,7 +108,7 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case DASH:  return 100000000;
+    case FATZCHAIN:  return 100000000;
     case mDASH: return 100000;
     case uDASH: return 100;
     case duffs: return 1;
@@ -120,7 +120,7 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case DASH: return 8;
+    case FATZCHAIN: return 8;
     case mDASH: return 5;
     case uDASH: return 2;
     case duffs: return 0;

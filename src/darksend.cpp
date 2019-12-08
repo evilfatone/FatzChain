@@ -35,7 +35,7 @@ map<uint256, CDarksendBroadcastTx> mapDarksendBroadcastTxes;
 // Keep track of the active Masternode
 CActiveMasternode activeMasternode;
 
-/* *** BEGIN DARKSEND MAGIC - DASH **********
+/* *** BEGIN DARKSEND MAGIC - FATZCHAIN **********
     Copyright (c) 2014-2015, Dash Developers
         eduffield - evan@evilfatone.io
         udjinm6   - udjinm6@evilfatone.io

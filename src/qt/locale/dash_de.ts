@@ -176,7 +176,7 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FATZCHAIN&lt;/b&gt;!</source>
         <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre Dash verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -863,28 +863,28 @@ Adresse: %4</translation>
         <translation>Bitten wählen Sie eine Datenschutz-Stufe.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Benutze 2 separate Masternodes um bis zu 1000 DASH zu mixen</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 FATZCHAIN</source>
+        <translation>Benutze 2 separate Masternodes um bis zu 1000 FATZCHAIN zu mixen</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 DASH</source>
-        <translation>Benutze 8 separate Masternodes um bis zu 1000 DASH zu mixen</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 FATZCHAIN</source>
+        <translation>Benutze 8 separate Masternodes um bis zu 1000 FATZCHAIN zu mixen</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Benutze 16 separate Masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000 DASH</source>
-        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 DASH, um 1000 DASH zu anonymisieren</translation>
+        <source>This option is the quickest and will cost about ~0.025 FATZCHAIN to anonymize 1000 FATZCHAIN</source>
+        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 FATZCHAIN, um 1000 FATZCHAIN zu anonymisieren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000 DASH</source>
-        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 DASH, um 1000 DASH zu anonymisieren</translation>
+        <source>This option is moderately fast and will cost about 0.05 FATZCHAIN to anonymize 1000 FATZCHAIN</source>
+        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 FATZCHAIN, um 1000 FATZCHAIN zu anonymisieren</translation>
     </message>
     <message>
-        <source>0.1 DASH per 1000 DASH you anonymize.</source>
-        <translation>0,1 DASH pro 1000 zu anonymisierende Dash.</translation>
+        <source>0.1 FATZCHAIN per 1000 FATZCHAIN you anonymize.</source>
+        <translation>0,1 FATZCHAIN pro 1000 zu anonymisierende Dash.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1430,8 +1430,8 @@ https://www.transifex.com/projects/p/dash/</translation>
         <translation>Betrag und Runden:</translation>
     </message>
     <message>
-        <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH / 0 Runden</translation>
+        <source>0 FATZCHAIN / 0 Rounds</source>
+        <translation>0 FATZCHAIN / 0 Runden</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -3276,8 +3276,8 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
         <translation>Dash überweisen</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 DASH.</source>
-        <translation>InstantX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 DASH begrenzt.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 FATZCHAIN.</source>
+        <translation>InstantX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 FATZCHAIN begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -3390,8 +3390,8 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
         <translation>Für diese Transaktion konnten nicht genug mit Darksend gestückelte Beträge gefunden werden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Für diese Transaktion konnten nicht genug nicht mit Darksend gestückelte Beträge gefunden werden, die ungleich 1000 DASH sind.</translation>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FATZCHAIN.</source>
+        <translation>Für diese Transaktion konnten nicht genug nicht mit Darksend gestückelte Beträge gefunden werden, die ungleich 1000 FATZCHAIN sind.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3634,12 +3634,12 @@ Dies kann passieren, wenn einige Dash aus ihrer Wallet bereits ausgegeben wurden
         <translation>Fehler: Parameter -socks wird nicht mehr unterstützt. Setzen der SOCKS-Version ist nicht mehr möglich, es werden nur noch SOCKS5 Proxies unterstützt.</translation>
     </message>
     <message>
-        <source>Fees (in DASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Niedrigere Gebühren (in DASH pro Kb) als diese werden bei der Vermittlung als gebührenfrei angesehen (Standard: %s)</translation>
+        <source>Fees (in FATZCHAIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Niedrigere Gebühren (in FATZCHAIN pro Kb) als diese werden bei der Vermittlung als gebührenfrei angesehen (Standard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Niedrigere Gebühren (in DASH pro Kb) als diese werden bei der Transaktionserzeugung als gebührenfrei angesehen (Standard: %s)</translation>
+        <source>Fees (in FATZCHAIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Niedrigere Gebühren (in FATZCHAIN pro Kb) als diese werden bei der Transaktionserzeugung als gebührenfrei angesehen (Standard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3733,8 +3733,8 @@ Es wird ebenfalls empfohlen alertnotify anzugeben, um im Problemfall benachricht
 zum Beispiel: alertnotify=echo %%s | mail -s \"Dash Alert\" admin@foo.com</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 DASH.</source>
-        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1000 DASH sind.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 FATZCHAIN.</source>
+        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1000 FATZCHAIN sind.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3847,8 +3847,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"Dash Alert\" admin@foo.com</trans
         <translation>Fehler: Paramter -tor wird nicht unterstützt, bitte -onion benutzen.</translation>
     </message>
     <message>
-        <source>Fee (in DASH/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebühren (in DASH pro Kb), die gesendeten Transaktionen hinzugefügt werden (Standard: %s)</translation>
+        <source>Fee (in FATZCHAIN/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebühren (in FATZCHAIN pro Kb), die gesendeten Transaktionen hinzugefügt werden (Standard: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4216,7 +4216,7 @@ Dash Core wird heruntergefahren.</translation>
         <translation>"KeePassHttp key" für die  AES-verschlüsselte Kommunikation mit "KeePass"</translation>
     </message>
     <message>
-        <source>Keep N DASH anonymized (default: %u)</source>
+        <source>Keep N FATZCHAIN anonymized (default: %u)</source>
         <translation>Betrag welcher anonymisiert vorgehalten wird. (Voreinstellung: %u)</translation>
     </message>
     <message>
