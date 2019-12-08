@@ -309,16 +309,16 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "setmocktime",            &setmocktime,            true,      false,      false },
 
     /* Fatzchain features */
-    { "dash",               "masternode",             &masternode,             true,      true,       false },
-    { "dash",               "masternodelist",         &masternodelist,         true,      true,       false },
-    { "dash",               "masternodebroadcast",    &masternodebroadcast,    true,      true,       false },
-    { "dash",               "mnbudget",               &mnbudget,               true,      true,       false },
-    { "dash",               "mnbudgetvoteraw",        &mnbudgetvoteraw,        true,      true,       false },
-    { "dash",               "mnfinalbudget",          &mnfinalbudget,          true,      true,       false },
-    { "dash",               "mnsync",                 &mnsync,                 true,      true,       false },
-    { "dash",               "spork",                  &spork,                  true,      true,       false },
+    { "fatzchain",               "masternode",             &masternode,             true,      true,       false },
+    { "fatzchain",               "masternodelist",         &masternodelist,         true,      true,       false },
+    { "fatzchain",               "masternodebroadcast",    &masternodebroadcast,    true,      true,       false },
+    { "fatzchain",               "mnbudget",               &mnbudget,               true,      true,       false },
+    { "fatzchain",               "mnbudgetvoteraw",        &mnbudgetvoteraw,        true,      true,       false },
+    { "fatzchain",               "mnfinalbudget",          &mnfinalbudget,          true,      true,       false },
+    { "fatzchain",               "mnsync",                 &mnsync,                 true,      true,       false },
+    { "fatzchain",               "spork",                  &spork,                  true,      true,       false },
 #ifdef ENABLE_WALLET
-    { "dash",               "darksend",               &darksend,               false,     false,      true  }, /* not threadSafe because of SendMoney */
+    { "fatzchain",               "darksend",               &darksend,               false,     false,      true  }, /* not threadSafe because of SendMoney */
 
     /* Wallet */
     { "wallet",             "addmultisigaddress",     &addmultisigaddress,     true,      false,      true },
@@ -587,7 +587,7 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-            _("To use dashd, or the -server option to dash-qt, you must set an rpcpassword in the configuration file:\n"
+            _("To use dashd, or the -server option to fatzchain-qt, you must set an rpcpassword in the configuration file:\n"
               "%s\n"
               "It is recommended you use the following random password:\n"
               "rpcuser=dashrpc\n"
@@ -1047,7 +1047,7 @@ json_spirit::Value CRPCTable::execute(const std::string &strMethod, const json_s
 }
 
 std::string HelpExampleCli(string methodname, string args){
-    return "> dash-cli " + methodname + " " + args + "\n";
+    return "> fatzchain-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args){
