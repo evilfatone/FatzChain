@@ -6,10 +6,10 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/dash
+src/fatzchain
 src/dashd
-src/dash-cli
-src/dash-tx
+src/fatzchain-cli
+src/fatzchain-tx
 src/test/test_dash
 src/qt/test/test_dash-qt
 
@@ -34,8 +34,8 @@ config.log
 config.status
 configure
 libtool
-src/config/dash-config.h
-src/config/dash-config.h.in
+src/config/fatzchain-config.h
+src/config/fatzchain-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -60,7 +60,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.dash
+.fatzchain
 *.a
 *.pb.cc
 *.pb.h
@@ -79,12 +79,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-dash-qt
+fatzchain-qt
 Fatzchain-Qt.app
 
 # Unit-tests
 Makefile.test
-dash-qt_test
+fatzchain-qt_test
 src/test/buildenv.py
 
 # Resources cpp

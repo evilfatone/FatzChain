@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/darksend-relay.h \
            src/darksend.h \
-           src/dash-config.h \
+           src/fatzchain-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/dash-config.h \
+           src/config/fatzchain-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/dash.moc \
+           src/qt/fatzchain.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,8 +374,8 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/darksend-relay.cpp \
            src/darksend.cpp \
-           src/dash-cli.cpp \
-           src/dash-tx.cpp \
+           src/fatzchain-cli.cpp \
+           src/fatzchain-tx.cpp \
            src/dashd.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
@@ -471,7 +471,7 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/darksendconfig.cpp \
-           src/qt/dash.cpp \
+           src/qt/fatzchain.cpp \
            src/qt/dashstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
@@ -641,7 +641,7 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/dash.qrc src/qt/dash_locale.qrc
+RESOURCES += src/qt/fatzchain.qrc src/qt/dash_locale.qrc
 TRANSLATIONS += src/qt/locale/dash_bg.ts \
                 src/qt/locale/dash_de.ts \
                 src/qt/locale/dash_en.ts \

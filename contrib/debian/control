@@ -1,4 +1,4 @@
-Source: dash
+Source: fatzchain
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk> ***TODO***
@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://www.evilfatone.io/
-Vcs-Git: git://github.com/evilfatone/dash.git
-Vcs-Browser: http://github.com/evilfatone/dash
+Vcs-Git: git://github.com/evilfatone/fatzchain.git
+Vcs-Browser: http://github.com/evilfatone/fatzchain
 
 Package: dashd
 Architecture: any
@@ -40,9 +40,9 @@ Description: peer-to-peer network based digital currency - daemon
  requires 1+ GB of space, slowly growing.
  .
  This package provides the daemon, dashd, and the CLI tool
- dash-cli to interact with the daemon.
+ fatzchain-cli to interact with the daemon.
 
-Package: dash-qt
+Package: fatzchain-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
