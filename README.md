@@ -1,7 +1,7 @@
 Dash Core staging tree 0.12
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=master)](https://travis-ci.org/dashpay/dash) `v0.12.0.x:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=v0.12.0.x)](https://travis-ci.org/dashpay/dash/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=v0.12.1.x)](https://travis-ci.org/dashpay/dash/branches)
+`master:` [![Build Status](https://travis-ci.org/evilfatone/dash.svg?branch=master)](https://travis-ci.org/evilfatone/dash) `v0.12.0.x:` [![Build Status](https://travis-ci.org/evilfatone/dash.svg?branch=v0.12.0.x)](https://travis-ci.org/evilfatone/dash/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/evilfatone/dash.svg?branch=v0.12.1.x)](https://travis-ci.org/evilfatone/dash/branches)
 
 https://www.dash.org
 
@@ -33,10 +33,10 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/dashpay/dash/tags) are created to indicate new official,
+[Tags](https://github.com/evilfatone/dash/tags) are created to indicate new official,
 stable release versions of Dash Core.
 
-The contribution workflow is described in [CONTRIBUTING.md](https://github.com/dashpay/dash/blob/v0.12.1.x/CONTRIBUTING.md).
+The contribution workflow is described in [CONTRIBUTING.md](https://github.com/evilfatone/dash/blob/v0.12.1.x/CONTRIBUTING.md).
 
 
 Testing
@@ -55,14 +55,14 @@ submit new unit tests for old code. Unit tests can be compiled and run (assuming
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
 used for manual QA testing — a link to them will appear in a comment on the
-pull request posted by [DashPullTester](https://github.com/dashpay/PullTester). See https://github.com/TheBlueMatt/test-scripts
+pull request posted by [DashPullTester](https://github.com/evilfatone/PullTester). See https://github.com/TheBlueMatt/test-scripts
 for the build/test scripts. ***TODO***
 
 ### Manual Quality Assurance (QA) Testing
 
 Large changes should have a test plan, and should be tested by somebody other
 than the developer who wrote the code.
-See https://github.com/dashpay/QA/ for how to create a test plan. ***TODO***
+See https://github.com/evilfatone/QA/ for how to create a test plan. ***TODO***
 
 Translations
 ------------

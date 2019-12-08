@@ -34,7 +34,7 @@ Drag Dash-Qt to your applications folder, and then run Dash-Qt.
 
 * See the documentation at the [Dash Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [#dashpay](http://webchat.freenode.net?channels=dashpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dashpay).
+* Ask for help on [#evilfatone](http://webchat.freenode.net?channels=evilfatone) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=evilfatone).
 * Ask for help on the [DashTalk](https://dashtalk.org/) forums.
 
 Building
@@ -46,7 +46,7 @@ The following are developer notes on how to build Dash on your native platform. 
 
 Development
 ---------------------
-The Dash repo's [root README](https://github.com/dashpay/dash/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Dash repo's [root README](https://github.com/evilfatone/dash/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -58,7 +58,7 @@ The Dash repo's [root README](https://github.com/dashpay/dash/blob/master/README
 
 ### Resources
 * Discuss on the [DashTalk](https://dashtalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#dashpay](http://webchat.freenode.net/?channels=dashpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dashpay).
+* Discuss on [#evilfatone](http://webchat.freenode.net/?channels=evilfatone) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=evilfatone).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
