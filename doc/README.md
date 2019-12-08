@@ -17,14 +17,14 @@ You need the Qt4 run-time libraries to run Fatzchain-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/dash-qt (GUI, 32-bit) or bin/32/dashd (headless, 32-bit)
-- bin/64/dash-qt (GUI, 64-bit) or bin/64/dashd (headless, 64-bit)
+- bin/32/fatzchain-qt (GUI, 32-bit) or bin/32/dashd (headless, 32-bit)
+- bin/64/fatzchain-qt (GUI, 64-bit) or bin/64/dashd (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run dash-qt.exe.
+Unpack the files into a directory, and then run fatzchain-qt.exe.
 
 ### OSX
 
@@ -46,7 +46,7 @@ The following are developer notes on how to build Fatzchain on your native platf
 
 Development
 ---------------------
-The Fatzchain repo's [root README](https://github.com/evilfatone/dash/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Fatzchain repo's [root README](https://github.com/evilfatone/fatzchain/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
