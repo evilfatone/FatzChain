@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.evilfatone.Dash-Qt";
+        return @"io.evilfatone.Fatzchain-Qt";
     } else {
         return [self __bundleIdentifier];
     }

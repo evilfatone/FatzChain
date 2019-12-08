@@ -58,7 +58,7 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Dash Core for Linux, Windows, and OS X:
+###Build Fatzchain Core for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit dash=v${VERSION} ../dash/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../dash/contrib/gitian-descriptors/gitian-linux.yml
@@ -153,7 +153,7 @@ rm SHA256SUMS
 
   - Release sticky on dashtalk: https://dashtalk.org/index.php?board=1.0 ***TODO***
 
-  - Dash-development mailing list
+  - Fatzchain-development mailing list
 
   - Update title of #evilfatone on Freenode IRC
 
