@@ -157,7 +157,7 @@ rm SHA256SUMS
 
   - Update title of #dashpay on Freenode IRC
 
-  - Optionally reddit /r/Dashpay, ... but this will usually sort out itself
+  - Optionally reddit /r/Evilfatone, ... but this will usually sort out itself
 
 - Notify Flare (?) ***TODO*** so that he can start building [https://launchpad.net/~dashpay/+archive/ubuntu/dash](the PPAs) ***TODO***
 
