@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "Fatzchain"
             VALUE "FileDescription",    "Fatzchain-cli (OSS RPC client for Fatzchain)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "dash-cli"
+            VALUE "InternalName",       "fatzchain-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "dash-cli.exe"
+            VALUE "OriginalFilename",   "fatzchain-cli.exe"
             VALUE "ProductName",        "Fatzchain-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

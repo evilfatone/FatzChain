@@ -1,7 +1,7 @@
-bin_PROGRAMS += qt/dash-qt
+bin_PROGRAMS += qt/fatzchain-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# dash qt core #
+# fatzchain qt core #
 QT_TS = \
   qt/locale/dash_bg.ts \
   qt/locale/dash_de.ts \
@@ -90,14 +90,14 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/dash.moc \
+  qt/fatzchain.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
 QT_QRC_CPP = qt/qrc_dash.cpp
-QT_QRC = qt/dash.qrc
+QT_QRC = qt/fatzchain.qrc
 QT_QRC_LOCALE_CPP = qt/qrc_dash_locale.cpp
 QT_QRC_LOCALE = qt/dash_locale.qrc
 
@@ -288,7 +288,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/dash-qt-res.rc
+BITCOIN_RC = qt/res/fatzchain-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -315,11 +315,11 @@ $(qt_libbitcoinqt_a_OBJECTS) $(qt_dash_qt_OBJECTS) : | $(QT_MOC)
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# dash-qt binary #
+# fatzchain-qt binary #
 qt_dash_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_dash_qt_SOURCES = qt/dash.cpp
+qt_dash_qt_SOURCES = qt/fatzchain.cpp
 if TARGET_DARWIN
   qt_dash_qt_SOURCES += $(BITCOIN_MM)
 endif
@@ -356,7 +356,7 @@ $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name dash $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name fatzchain $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
@@ -364,9 +364,9 @@ CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda 
 CLEANFILES += $(CLEAN_QT)
 
 dash_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_dash_qt_OBJECTS) qt/dash-qt$(EXEEXT) $(LIBBITCOINQT)
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_dash_qt_OBJECTS) qt/fatzchain-qt$(EXEEXT) $(LIBBITCOINQT)
 
-dash_qt : qt/dash-qt$(EXEEXT)
+dash_qt : qt/fatzchain-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

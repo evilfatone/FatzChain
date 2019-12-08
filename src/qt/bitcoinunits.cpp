@@ -44,7 +44,7 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case FATZCHAIN: return QString("dash");
+        case FATZCHAIN: return QString("fatzchain");
         case mDASH: return QString("mdash");
         case uDASH: return QString::fromUtf8("udash");
         case duffs: return QString("duffs");

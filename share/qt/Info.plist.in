@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.dash.DashPayment</string>
+      <string>io.fatzchain.DashPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>dash</string>
+        <string>fatzchain</string>
       </array>
     </dict>
   </array>
@@ -52,7 +52,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.dash.paymentrequest</string>
+      <string>io.fatzchain.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Fatzchain payment request</string>
       <key>UTTypeConformsTo</key>
@@ -62,7 +62,7 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-dash-payment-request</string>
+        <string>application/x-fatzchain-payment-request</string>
         <key>public.filename-extension</key>
         <array>
           <string>dashpaymentrequest</string>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.dash.paymentrequest</string>
+        <string>io.fatzchain.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

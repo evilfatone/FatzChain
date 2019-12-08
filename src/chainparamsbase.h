@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between dash-cli and dashd)
+ * CBaseChainParams defines the base parameters (shared between fatzchain-cli and dashd)
  * of a given instance of the Fatzchain system.
  */
 class CBaseChainParams

@@ -1,9 +1,9 @@
 Fatzchain Core staging tree 0.12
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/evilfatone/dash.svg?branch=master)](https://travis-ci.org/evilfatone/dash) `v0.12.0.x:` [![Build Status](https://travis-ci.org/evilfatone/dash.svg?branch=v0.12.0.x)](https://travis-ci.org/evilfatone/dash/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/evilfatone/dash.svg?branch=v0.12.1.x)](https://travis-ci.org/evilfatone/dash/branches)
+`master:` [![Build Status](https://travis-ci.org/evilfatone/fatzchain.svg?branch=master)](https://travis-ci.org/evilfatone/fatzchain) `v0.12.0.x:` [![Build Status](https://travis-ci.org/evilfatone/fatzchain.svg?branch=v0.12.0.x)](https://travis-ci.org/evilfatone/fatzchain/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/evilfatone/fatzchain.svg?branch=v0.12.1.x)](https://travis-ci.org/evilfatone/fatzchain/branches)
 
-https://www.dash.org
+https://www.fatzchain.org
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
@@ -20,7 +20,7 @@ are carried out collectively by the network. Fatzchain Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Fatzchain Core software, see https://www.dash.org/downloads.
+the Fatzchain Core software, see https://www.fatzchain.org/downloads.
 
 
 License
@@ -33,10 +33,10 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/evilfatone/dash/tags) are created to indicate new official,
+[Tags](https://github.com/evilfatone/fatzchain/tags) are created to indicate new official,
 stable release versions of Fatzchain Core.
 
-The contribution workflow is described in [CONTRIBUTING.md](https://github.com/evilfatone/dash/blob/v0.12.1.x/CONTRIBUTING.md).
+The contribution workflow is described in [CONTRIBUTING.md](https://github.com/evilfatone/fatzchain/blob/v0.12.1.x/CONTRIBUTING.md).
 
 
 Testing
@@ -68,7 +68,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/dash/).
+[Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/fatzchain/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
@@ -76,7 +76,7 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/dash-translators). ***TODO***
+Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/fatzchain-translators). ***TODO***
 
 Development tips and tricks
 ---------------------------
@@ -99,7 +99,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play dash" on the test network, if you
+Run with the -testnet option to run with "play fatzchain" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.
